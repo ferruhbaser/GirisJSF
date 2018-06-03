@@ -36,10 +36,13 @@ public class Giris {
     {
         boolean sonuc = GirisDAO.giriseYetkilimi(kullanici, sifre);
         
-        if (sonuc) {
+        if (sonuc) 
+        {
             return "menu.xhtml";
             
-        } else {
+        } 
+        else 
+        {
             return "giris.xhtml";
         }
         
