@@ -7,7 +7,7 @@
         <title>GİRİŞ</title>
     </h:head>
     <h:body>
-        <h:form>
+        <h:form><center><br/><br/><br/><br/><br/><br/><br/>
             <h:panelGrid columns="2" border="1">
                 <f:facet name="header">
                     <h:outputText value="Giriş">
@@ -21,13 +21,13 @@
                 <h:inputSecret value="#{giris.sifre}"/>
                 
                 <f:facet name="footer">
-                    
+                    <center>
                     <h:commandButton value="Giriş" action="#{giris.girisKontrol()}"/>
-                    
+                    </center>
                 </f:facet>
                 
            </h:panelGrid>    
-        </h:form>
+            </center>  </h:form>
     </h:body>
 </html>
 
